@@ -1,0 +1,350 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACC	mag_acc.c	/^static double ACC, MAG;$/;"	v	file:
+CC	Makefile	/^CC=avr-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-mmcu=$(MMCU)$/;"	m
+DDR_SPI	spi1.c	9;"	d	file:
+DD_MISO	spi1.c	10;"	d	file:
+DD_MOSI	spi1.c	11;"	d	file:
+DD_SCK	spi1.c	13;"	d	file:
+DD_SS	spi1.c	12;"	d	file:
+DelayUS	nrf24l01.h	66;"	d
+F_CPU	mag_acc.c	2;"	d	file:
+F_CPU	nrf24l01.h	14;"	d
+F_CPU	spi1.c	2;"	d	file:
+F_CPU	tx.c	2;"	d	file:
+F_CPU	uart.c	2;"	d	file:
+ISR	local.c	/^ISR(USART0_RX_vect)$/;"	f
+Initialize	local.c	/^void Initialize(void)$/;"	f
+Initialize	remote.c	/^void Initialize(void) $/;"	f
+Initialize	tx.c	/^void Initialize(void)$/;"	f
+InitializeIO	local.c	/^void InitializeIO(void)$/;"	f
+InitializeIO	remote.c	/^void InitializeIO(void)$/;"	f
+InitializeIO	tx.c	/^void InitializeIO(void)$/;"	f
+MAG	mag_acc.c	/^static double ACC, MAG;$/;"	v	file:
+MAIN1	Makefile	/^MAIN1=remote.c$/;"	m
+MAIN2	Makefile	/^MAIN2=local.c$/;"	m
+MMCU	Makefile	/^MMCU=atmega2560$/;"	m
+NRF24L01_H_	nrf24l01.h	17;"	d
+OBJCOPY	Makefile	/^OBJCOPY=avr-objcopy$/;"	m
+PORT_SPI	spi1.c	8;"	d	file:
+SOURCES1	Makefile	/^SOURCES1 = nrf24l01.c spi1.c uart.c$/;"	m
+SOURCES2	Makefile	/^SOURCES2 = nrf24l01.c spi1.c uart.c$/;"	m
+ToggleLED	tx.c	/^void ToggleLED(void)$/;"	f
+USART_BAUD	uart.c	6;"	d	file:
+ax	mag_acc.c	/^static double ax, ay, az;$/;"	v	file:
+ay	mag_acc.c	/^static double ax, ay, az;$/;"	v	file:
+az	mag_acc.c	/^static double ax, ay, az;$/;"	v	file:
+baud	uart.c	7;"	d	file:
+bool	nrf24l01.h	22;"	d
+buf	local.c	/^unsigned char buf[32];$/;"	v
+buf	remote.c	/^unsigned char buf[32];$/;"	v
+ce_high	nrf24l01.h	108;"	d
+ce_low	nrf24l01.h	107;"	d
+countt	local.c	/^unsigned int countt;$/;"	v
+csn_high	nrf24l01.h	116;"	d
+csn_low	nrf24l01.h	115;"	d
+delay_us	nrf24l01.h	65;"	d
+false	nrf24l01.h	25;"	d
+heading	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+i2c_init	mag_acc.c	/^void i2c_init(void)$/;"	f
+i2c_read	mag_acc.c	/^unsigned char i2c_read(unsigned char isLast)$/;"	f
+i2c_start	mag_acc.c	/^void i2c_start(void)$/;"	f
+i2c_stop	mag_acc.c	/^void i2c_stop()$/;"	f
+i2c_write	mag_acc.c	/^void i2c_write(unsigned char data)$/;"	f
+indx	local.c	/^volatile unsigned char uart_rx[5], pass, indx;$/;"	v
+mag_init	mag_acc.c	/^void mag_init()$/;"	f
+main	local.c	/^void main(void)$/;"	f
+main	remote.c	/^void main(void) $/;"	f
+main	tx.c	/^void main(void)$/;"	f
+max	mag_acc.c	/^static int max = 0;$/;"	v	file:
+maxx	mag_acc.c	14;"	d	file:
+maxy	mag_acc.c	15;"	d	file:
+maxz	mag_acc.c	16;"	d	file:
+minx	mag_acc.c	11;"	d	file:
+miny	mag_acc.c	12;"	d	file:
+minz	mag_acc.c	13;"	d	file:
+mx	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+mx2	mag_acc.c	/^static double mx2, my2, mz2;$/;"	v	file:
+my	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+my2	mag_acc.c	/^static double mx2, my2, mz2;$/;"	v	file:
+mz	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+mz2	mag_acc.c	/^static double mx2, my2, mz2;$/;"	v	file:
+nrf24l01_CD	nrf24l01.h	158;"	d
+nrf24l01_CD_CD	nrf24l01.h	335;"	d
+nrf24l01_CD_DEFAULT_VAL	nrf24l01.h	190;"	d
+nrf24l01_CD_RESERVED	nrf24l01.h	334;"	d
+nrf24l01_CE_IOREGISTER	nrf24l01.h	105;"	d
+nrf24l01_CE_PINMASK	nrf24l01.h	106;"	d
+nrf24l01_CONFIG	nrf24l01.h	149;"	d
+nrf24l01_CONFIG_CRCO	nrf24l01.h	229;"	d
+nrf24l01_CONFIG_DEFAULT_VAL	nrf24l01.h	181;"	d
+nrf24l01_CONFIG_EN_CRC	nrf24l01.h	228;"	d
+nrf24l01_CONFIG_MASK_MAX_RT	nrf24l01.h	227;"	d
+nrf24l01_CONFIG_MASK_RX_DR	nrf24l01.h	225;"	d
+nrf24l01_CONFIG_MASK_TX_DS	nrf24l01.h	226;"	d
+nrf24l01_CONFIG_PRIM_RX	nrf24l01.h	231;"	d
+nrf24l01_CONFIG_PWR_UP	nrf24l01.h	230;"	d
+nrf24l01_CONFIG_RESERVED	nrf24l01.h	224;"	d
+nrf24l01_CSN_IOREGISTER	nrf24l01.h	113;"	d
+nrf24l01_CSN_PINMASK	nrf24l01.h	114;"	d
+nrf24l01_EN_AA	nrf24l01.h	150;"	d
+nrf24l01_EN_AA_DEFAULT_VAL	nrf24l01.h	182;"	d
+nrf24l01_EN_AA_ENAA_ALL	nrf24l01.h	235;"	d
+nrf24l01_EN_AA_ENAA_NONE	nrf24l01.h	242;"	d
+nrf24l01_EN_AA_ENAA_P0	nrf24l01.h	241;"	d
+nrf24l01_EN_AA_ENAA_P1	nrf24l01.h	240;"	d
+nrf24l01_EN_AA_ENAA_P2	nrf24l01.h	239;"	d
+nrf24l01_EN_AA_ENAA_P3	nrf24l01.h	238;"	d
+nrf24l01_EN_AA_ENAA_P4	nrf24l01.h	237;"	d
+nrf24l01_EN_AA_ENAA_P5	nrf24l01.h	236;"	d
+nrf24l01_EN_AA_RESERVED	nrf24l01.h	234;"	d
+nrf24l01_EN_RXADDR	nrf24l01.h	151;"	d
+nrf24l01_EN_RXADDR_DEFAULT_VAL	nrf24l01.h	183;"	d
+nrf24l01_EN_RXADDR_ERX_ALL	nrf24l01.h	246;"	d
+nrf24l01_EN_RXADDR_ERX_NONE	nrf24l01.h	253;"	d
+nrf24l01_EN_RXADDR_ERX_P0	nrf24l01.h	252;"	d
+nrf24l01_EN_RXADDR_ERX_P1	nrf24l01.h	251;"	d
+nrf24l01_EN_RXADDR_ERX_P2	nrf24l01.h	250;"	d
+nrf24l01_EN_RXADDR_ERX_P3	nrf24l01.h	249;"	d
+nrf24l01_EN_RXADDR_ERX_P4	nrf24l01.h	248;"	d
+nrf24l01_EN_RXADDR_ERX_P5	nrf24l01.h	247;"	d
+nrf24l01_EN_RXADDR_RESERVED	nrf24l01.h	245;"	d
+nrf24l01_FIFO_STATUS	nrf24l01.h	172;"	d
+nrf24l01_FIFO_STATUS_DEFAULT_VAL	nrf24l01.h	216;"	d
+nrf24l01_FIFO_STATUS_RESERVED	nrf24l01.h	359;"	d
+nrf24l01_FIFO_STATUS_RX_EMPTY	nrf24l01.h	364;"	d
+nrf24l01_FIFO_STATUS_RX_FULL	nrf24l01.h	363;"	d
+nrf24l01_FIFO_STATUS_TX_EMPTY	nrf24l01.h	362;"	d
+nrf24l01_FIFO_STATUS_TX_FULL	nrf24l01.h	361;"	d
+nrf24l01_FIFO_STATUS_TX_REUSE	nrf24l01.h	360;"	d
+nrf24l01_FLUSH_RX	nrf24l01.h	136;"	d
+nrf24l01_FLUSH_TX	nrf24l01.h	135;"	d
+nrf24l01_IRQ_IOREGISTER	nrf24l01.h	121;"	d
+nrf24l01_IRQ_PINMASK	nrf24l01.h	122;"	d
+nrf24l01_NOP	nrf24l01.h	138;"	d
+nrf24l01_OBSERVE_TX	nrf24l01.h	157;"	d
+nrf24l01_OBSERVE_TX_ARC_CNT	nrf24l01.h	331;"	d
+nrf24l01_OBSERVE_TX_DEFAULT_VAL	nrf24l01.h	189;"	d
+nrf24l01_OBSERVE_TX_PLOS_CNT	nrf24l01.h	330;"	d
+nrf24l01_REUSE_TX_PL	nrf24l01.h	137;"	d
+nrf24l01_RF_CH	nrf24l01.h	154;"	d
+nrf24l01_RF_CH_DEFAULT_VAL	nrf24l01.h	186;"	d
+nrf24l01_RF_CH_RESERVED	nrf24l01.h	300;"	d
+nrf24l01_RF_SETUP	nrf24l01.h	155;"	d
+nrf24l01_RF_SETUP_DEFAULT_VAL	nrf24l01.h	187;"	d
+nrf24l01_RF_SETUP_LNA_HCURR	nrf24l01.h	311;"	d
+nrf24l01_RF_SETUP_PLL_LOCK	nrf24l01.h	304;"	d
+nrf24l01_RF_SETUP_RESERVED	nrf24l01.h	303;"	d
+nrf24l01_RF_SETUP_RF_DR	nrf24l01.h	305;"	d
+nrf24l01_RF_SETUP_RF_PWR	nrf24l01.h	306;"	d
+nrf24l01_RF_SETUP_RF_PWR_0	nrf24l01.h	307;"	d
+nrf24l01_RF_SETUP_RF_PWR_12	nrf24l01.h	309;"	d
+nrf24l01_RF_SETUP_RF_PWR_18	nrf24l01.h	310;"	d
+nrf24l01_RF_SETUP_RF_PWR_6	nrf24l01.h	308;"	d
+nrf24l01_RX_ADDR_P0	nrf24l01.h	159;"	d
+nrf24l01_RX_ADDR_P0_B0_DEFAULT_VAL	nrf24l01.h	191;"	d
+nrf24l01_RX_ADDR_P0_B1_DEFAULT_VAL	nrf24l01.h	192;"	d
+nrf24l01_RX_ADDR_P0_B2_DEFAULT_VAL	nrf24l01.h	193;"	d
+nrf24l01_RX_ADDR_P0_B3_DEFAULT_VAL	nrf24l01.h	194;"	d
+nrf24l01_RX_ADDR_P0_B4_DEFAULT_VAL	nrf24l01.h	195;"	d
+nrf24l01_RX_ADDR_P1	nrf24l01.h	160;"	d
+nrf24l01_RX_ADDR_P1_B0_DEFAULT_VAL	nrf24l01.h	196;"	d
+nrf24l01_RX_ADDR_P1_B1_DEFAULT_VAL	nrf24l01.h	197;"	d
+nrf24l01_RX_ADDR_P1_B2_DEFAULT_VAL	nrf24l01.h	198;"	d
+nrf24l01_RX_ADDR_P1_B3_DEFAULT_VAL	nrf24l01.h	199;"	d
+nrf24l01_RX_ADDR_P1_B4_DEFAULT_VAL	nrf24l01.h	200;"	d
+nrf24l01_RX_ADDR_P2	nrf24l01.h	161;"	d
+nrf24l01_RX_ADDR_P2_DEFAULT_VAL	nrf24l01.h	201;"	d
+nrf24l01_RX_ADDR_P3	nrf24l01.h	162;"	d
+nrf24l01_RX_ADDR_P3_DEFAULT_VAL	nrf24l01.h	202;"	d
+nrf24l01_RX_ADDR_P4	nrf24l01.h	163;"	d
+nrf24l01_RX_ADDR_P4_DEFAULT_VAL	nrf24l01.h	203;"	d
+nrf24l01_RX_ADDR_P5	nrf24l01.h	164;"	d
+nrf24l01_RX_ADDR_P5_DEFAULT_VAL	nrf24l01.h	204;"	d
+nrf24l01_RX_PW_P0	nrf24l01.h	166;"	d
+nrf24l01_RX_PW_P0_DEFAULT_VAL	nrf24l01.h	210;"	d
+nrf24l01_RX_PW_P0_RESERVED	nrf24l01.h	338;"	d
+nrf24l01_RX_PW_P0_RESERVED	nrf24l01.h	341;"	d
+nrf24l01_RX_PW_P1	nrf24l01.h	167;"	d
+nrf24l01_RX_PW_P1_DEFAULT_VAL	nrf24l01.h	211;"	d
+nrf24l01_RX_PW_P1_RESERVED	nrf24l01.h	344;"	d
+nrf24l01_RX_PW_P2	nrf24l01.h	168;"	d
+nrf24l01_RX_PW_P2_DEFAULT_VAL	nrf24l01.h	212;"	d
+nrf24l01_RX_PW_P2_RESERVED	nrf24l01.h	347;"	d
+nrf24l01_RX_PW_P3	nrf24l01.h	169;"	d
+nrf24l01_RX_PW_P3_DEFAULT_VAL	nrf24l01.h	213;"	d
+nrf24l01_RX_PW_P3_RESERVED	nrf24l01.h	350;"	d
+nrf24l01_RX_PW_P4	nrf24l01.h	170;"	d
+nrf24l01_RX_PW_P4_DEFAULT_VAL	nrf24l01.h	214;"	d
+nrf24l01_RX_PW_P4_RESERVED	nrf24l01.h	353;"	d
+nrf24l01_RX_PW_P5	nrf24l01.h	171;"	d
+nrf24l01_RX_PW_P5_DEFAULT_VAL	nrf24l01.h	215;"	d
+nrf24l01_RX_PW_P5_RESERVED	nrf24l01.h	356;"	d
+nrf24l01_R_REGISTER	nrf24l01.h	131;"	d
+nrf24l01_R_REGISTER_DATA	nrf24l01.h	141;"	d
+nrf24l01_R_RX_PAYLOAD	nrf24l01.h	133;"	d
+nrf24l01_SETUP_AW	nrf24l01.h	152;"	d
+nrf24l01_SETUP_AW	nrf24l01.h	257;"	d
+nrf24l01_SETUP_AW_3BYTES	nrf24l01.h	260;"	d
+nrf24l01_SETUP_AW_4BYTES	nrf24l01.h	259;"	d
+nrf24l01_SETUP_AW_5BYTES	nrf24l01.h	258;"	d
+nrf24l01_SETUP_AW_DEFAULT_VAL	nrf24l01.h	184;"	d
+nrf24l01_SETUP_AW_ILLEGAL	nrf24l01.h	261;"	d
+nrf24l01_SETUP_AW_RESERVED	nrf24l01.h	256;"	d
+nrf24l01_SETUP_RETR	nrf24l01.h	153;"	d
+nrf24l01_SETUP_RETR_ARC	nrf24l01.h	281;"	d
+nrf24l01_SETUP_RETR_ARC_0	nrf24l01.h	297;"	d
+nrf24l01_SETUP_RETR_ARC_1	nrf24l01.h	296;"	d
+nrf24l01_SETUP_RETR_ARC_10	nrf24l01.h	287;"	d
+nrf24l01_SETUP_RETR_ARC_11	nrf24l01.h	286;"	d
+nrf24l01_SETUP_RETR_ARC_12	nrf24l01.h	285;"	d
+nrf24l01_SETUP_RETR_ARC_13	nrf24l01.h	284;"	d
+nrf24l01_SETUP_RETR_ARC_14	nrf24l01.h	283;"	d
+nrf24l01_SETUP_RETR_ARC_15	nrf24l01.h	282;"	d
+nrf24l01_SETUP_RETR_ARC_2	nrf24l01.h	295;"	d
+nrf24l01_SETUP_RETR_ARC_3	nrf24l01.h	294;"	d
+nrf24l01_SETUP_RETR_ARC_4	nrf24l01.h	293;"	d
+nrf24l01_SETUP_RETR_ARC_5	nrf24l01.h	292;"	d
+nrf24l01_SETUP_RETR_ARC_6	nrf24l01.h	291;"	d
+nrf24l01_SETUP_RETR_ARC_7	nrf24l01.h	290;"	d
+nrf24l01_SETUP_RETR_ARC_8	nrf24l01.h	289;"	d
+nrf24l01_SETUP_RETR_ARC_9	nrf24l01.h	288;"	d
+nrf24l01_SETUP_RETR_ARD	nrf24l01.h	264;"	d
+nrf24l01_SETUP_RETR_ARD_1000	nrf24l01.h	277;"	d
+nrf24l01_SETUP_RETR_ARD_1250	nrf24l01.h	276;"	d
+nrf24l01_SETUP_RETR_ARD_1500	nrf24l01.h	275;"	d
+nrf24l01_SETUP_RETR_ARD_1750	nrf24l01.h	274;"	d
+nrf24l01_SETUP_RETR_ARD_2000	nrf24l01.h	273;"	d
+nrf24l01_SETUP_RETR_ARD_2250	nrf24l01.h	272;"	d
+nrf24l01_SETUP_RETR_ARD_250	nrf24l01.h	280;"	d
+nrf24l01_SETUP_RETR_ARD_2500	nrf24l01.h	271;"	d
+nrf24l01_SETUP_RETR_ARD_2750	nrf24l01.h	270;"	d
+nrf24l01_SETUP_RETR_ARD_3000	nrf24l01.h	269;"	d
+nrf24l01_SETUP_RETR_ARD_3250	nrf24l01.h	268;"	d
+nrf24l01_SETUP_RETR_ARD_3500	nrf24l01.h	267;"	d
+nrf24l01_SETUP_RETR_ARD_3750	nrf24l01.h	266;"	d
+nrf24l01_SETUP_RETR_ARD_4000	nrf24l01.h	265;"	d
+nrf24l01_SETUP_RETR_ARD_500	nrf24l01.h	279;"	d
+nrf24l01_SETUP_RETR_ARD_750	nrf24l01.h	278;"	d
+nrf24l01_SETUP_RETR_DEFAULT_VAL	nrf24l01.h	185;"	d
+nrf24l01_STATUS	nrf24l01.h	156;"	d
+nrf24l01_STATUS_DEFAULT_VAL	nrf24l01.h	188;"	d
+nrf24l01_STATUS_MAX_RT	nrf24l01.h	317;"	d
+nrf24l01_STATUS_RESERVED	nrf24l01.h	314;"	d
+nrf24l01_STATUS_RX_DR	nrf24l01.h	315;"	d
+nrf24l01_STATUS_RX_P_NO	nrf24l01.h	318;"	d
+nrf24l01_STATUS_RX_P_NO_0	nrf24l01.h	326;"	d
+nrf24l01_STATUS_RX_P_NO_1	nrf24l01.h	325;"	d
+nrf24l01_STATUS_RX_P_NO_2	nrf24l01.h	324;"	d
+nrf24l01_STATUS_RX_P_NO_3	nrf24l01.h	323;"	d
+nrf24l01_STATUS_RX_P_NO_4	nrf24l01.h	322;"	d
+nrf24l01_STATUS_RX_P_NO_5	nrf24l01.h	321;"	d
+nrf24l01_STATUS_RX_P_NO_RX_FIFO_NOT_EMPTY	nrf24l01.h	319;"	d
+nrf24l01_STATUS_RX_P_NO_UNUSED	nrf24l01.h	320;"	d
+nrf24l01_STATUS_TX_DS	nrf24l01.h	316;"	d
+nrf24l01_STATUS_TX_FULL	nrf24l01.h	327;"	d
+nrf24l01_TX_ADDR	nrf24l01.h	165;"	d
+nrf24l01_TX_ADDR_B0_DEFAULT_VAL	nrf24l01.h	205;"	d
+nrf24l01_TX_ADDR_B1_DEFAULT_VAL	nrf24l01.h	206;"	d
+nrf24l01_TX_ADDR_B2_DEFAULT_VAL	nrf24l01.h	207;"	d
+nrf24l01_TX_ADDR_B3_DEFAULT_VAL	nrf24l01.h	208;"	d
+nrf24l01_TX_ADDR_B4_DEFAULT_VAL	nrf24l01.h	209;"	d
+nrf24l01_W_REGISTER	nrf24l01.h	132;"	d
+nrf24l01_W_REGISTER_DATA	nrf24l01.h	142;"	d
+nrf24l01_W_TX_PAYLOAD	nrf24l01.h	134;"	d
+nrf24l01_aa_disable	nrf24l01.c	/^void nrf24l01_aa_disable(unsigned char rxpipenum)$/;"	f
+nrf24l01_aa_enable	nrf24l01.c	/^void nrf24l01_aa_enable(unsigned char rxpipenum)$/;"	f
+nrf24l01_aa_enabled	nrf24l01.c	/^bool nrf24l01_aa_enabled(unsigned char rxpipenum)$/;"	f
+nrf24l01_cd_active	nrf24l01.c	/^bool nrf24l01_cd_active()$/;"	f
+nrf24l01_ce_pin_active	nrf24l01.c	/^bool nrf24l01_ce_pin_active()$/;"	f
+nrf24l01_clear_ce	nrf24l01.c	/^void nrf24l01_clear_ce()$/;"	f
+nrf24l01_clear_csn	nrf24l01.c	/^void nrf24l01_clear_csn()$/;"	f
+nrf24l01_clear_flush	nrf24l01.c	/^void nrf24l01_clear_flush()$/;"	f
+nrf24l01_clear_plos_cnt	nrf24l01.c	/^void nrf24l01_clear_plos_cnt()$/;"	f
+nrf24l01_clear_plos_cnt_param	nrf24l01.c	/^void nrf24l01_clear_plos_cnt_param(unsigned char rf_ch)$/;"	f
+nrf24l01_csn_pin_active	nrf24l01.c	/^bool nrf24l01_csn_pin_active()$/;"	f
+nrf24l01_execute_command	nrf24l01.c	/^unsigned char nrf24l01_execute_command(unsigned char instruction, unsigned char * data, unsigned int len, bool copydata)$/;"	f
+nrf24l01_fifo_rx_empty	nrf24l01.c	/^bool nrf24l01_fifo_rx_empty()$/;"	f
+nrf24l01_fifo_rx_full	nrf24l01.c	/^bool nrf24l01_fifo_rx_full()$/;"	f
+nrf24l01_fifo_tx_empty	nrf24l01.c	/^bool nrf24l01_fifo_tx_empty()$/;"	f
+nrf24l01_fifo_tx_full	nrf24l01.c	/^bool nrf24l01_fifo_tx_full()$/;"	f
+nrf24l01_fifo_tx_reuse	nrf24l01.c	/^bool nrf24l01_fifo_tx_reuse()$/;"	f
+nrf24l01_flush_rx	nrf24l01.c	/^unsigned char nrf24l01_flush_rx()$/;"	f
+nrf24l01_flush_tx	nrf24l01.c	/^unsigned char nrf24l01_flush_tx()$/;"	f
+nrf24l01_get_all_registers	nrf24l01.c	/^void nrf24l01_get_all_registers(unsigned char * data)$/;"	f
+nrf24l01_get_arc_cnt	nrf24l01.c	/^unsigned char nrf24l01_get_arc_cnt()$/;"	f
+nrf24l01_get_config	nrf24l01.c	/^unsigned char nrf24l01_get_config()$/;"	f
+nrf24l01_get_fifo_status	nrf24l01.c	/^unsigned char nrf24l01_get_fifo_status()$/;"	f
+nrf24l01_get_observe_tx	nrf24l01.c	/^unsigned char nrf24l01_get_observe_tx()$/;"	f
+nrf24l01_get_plos_cnt	nrf24l01.c	/^unsigned char nrf24l01_get_plos_cnt()$/;"	f
+nrf24l01_get_rf_ch	nrf24l01.c	/^unsigned char nrf24l01_get_rf_ch()$/;"	f
+nrf24l01_get_rx_pipe	nrf24l01.c	/^unsigned char nrf24l01_get_rx_pipe()$/;"	f
+nrf24l01_get_rx_pipe_from_status	nrf24l01.c	/^unsigned char nrf24l01_get_rx_pipe_from_status(unsigned char status)$/;"	f
+nrf24l01_get_rx_pw	nrf24l01.c	/^unsigned char nrf24l01_get_rx_pw(unsigned char rxpipenum)$/;"	f
+nrf24l01_get_status	nrf24l01.c	/^unsigned char nrf24l01_get_status()$/;"	f
+nrf24l01_initialize	nrf24l01.c	/^void nrf24l01_initialize(unsigned char config,$/;"	f
+nrf24l01_initialize_debug	nrf24l01.c	/^void nrf24l01_initialize_debug(bool rx, unsigned char p0_payload_width, bool enable_auto_ack)$/;"	f
+nrf24l01_initialize_debug_lite	nrf24l01.c	/^void nrf24l01_initialize_debug_lite(bool rx, unsigned char p0_payload_width)$/;"	f
+nrf24l01_irq_clear_all	nrf24l01.c	/^void nrf24l01_irq_clear_all()$/;"	f
+nrf24l01_irq_clear_max_rt	nrf24l01.c	/^void nrf24l01_irq_clear_max_rt()$/;"	f
+nrf24l01_irq_clear_rx_dr	nrf24l01.c	/^void nrf24l01_irq_clear_rx_dr()$/;"	f
+nrf24l01_irq_clear_tx_ds	nrf24l01.c	/^void nrf24l01_irq_clear_tx_ds()$/;"	f
+nrf24l01_irq_max_rt_active	nrf24l01.c	/^bool nrf24l01_irq_max_rt_active()$/;"	f
+nrf24l01_irq_pin_active	nrf24l01.c	/^bool nrf24l01_irq_pin_active()$/;"	f
+nrf24l01_irq_rx_dr_active	nrf24l01.c	/^bool nrf24l01_irq_rx_dr_active()$/;"	f
+nrf24l01_irq_tx_ds_active	nrf24l01.c	/^bool nrf24l01_irq_tx_ds_active()$/;"	f
+nrf24l01_nop	nrf24l01.c	/^unsigned char nrf24l01_nop()$/;"	f
+nrf24l01_power_down	nrf24l01.c	/^void nrf24l01_power_down()$/;"	f
+nrf24l01_power_down_param	nrf24l01.c	/^void nrf24l01_power_down_param(unsigned char config)$/;"	f
+nrf24l01_power_up	nrf24l01.c	/^void nrf24l01_power_up(bool rx_active_mode)$/;"	f
+nrf24l01_power_up_param	nrf24l01.c	/^void nrf24l01_power_up_param(bool rx_active_mode, unsigned char config)$/;"	f
+nrf24l01_read_register	nrf24l01.c	/^unsigned char nrf24l01_read_register(unsigned char regnumber, unsigned char * data, unsigned int len)$/;"	f
+nrf24l01_read_rx_payload	nrf24l01.c	/^unsigned char nrf24l01_read_rx_payload(unsigned char * data, unsigned int len)$/;"	f
+nrf24l01_reuse_tx_pl	nrf24l01.c	/^unsigned char nrf24l01_reuse_tx_pl()$/;"	f
+nrf24l01_rx_active_to_standby	nrf24l01.c	/^void nrf24l01_rx_active_to_standby()$/;"	f
+nrf24l01_rx_pipe_disable	nrf24l01.c	/^void nrf24l01_rx_pipe_disable(unsigned char rxpipenum)$/;"	f
+nrf24l01_rx_pipe_enable	nrf24l01.c	/^void nrf24l01_rx_pipe_enable(unsigned char rxpipenum)$/;"	f
+nrf24l01_rx_pipe_enabled	nrf24l01.c	/^bool nrf24l01_rx_pipe_enabled(unsigned char rxpipenum)$/;"	f
+nrf24l01_rx_standby_to_active	nrf24l01.c	/^void nrf24l01_rx_standby_to_active()$/;"	f
+nrf24l01_set_as_rx	nrf24l01.c	/^void nrf24l01_set_as_rx(bool rx_active_mode)$/;"	f
+nrf24l01_set_as_rx_param	nrf24l01.c	/^void nrf24l01_set_as_rx_param(bool rx_active_mode, unsigned char config)$/;"	f
+nrf24l01_set_as_tx	nrf24l01.c	/^void nrf24l01_set_as_tx()$/;"	f
+nrf24l01_set_as_tx_param	nrf24l01.c	/^void nrf24l01_set_as_tx_param(unsigned char config)$/;"	f
+nrf24l01_set_ce	nrf24l01.c	/^void nrf24l01_set_ce()$/;"	f
+nrf24l01_set_config	nrf24l01.c	/^void nrf24l01_set_config(unsigned char config)$/;"	f
+nrf24l01_set_csn	nrf24l01.c	/^void nrf24l01_set_csn()$/;"	f
+nrf24l01_set_rf_ch	nrf24l01.c	/^void nrf24l01_set_rf_ch(unsigned char channel)$/;"	f
+nrf24l01_set_rx_addr	nrf24l01.c	/^void nrf24l01_set_rx_addr(unsigned char * address, unsigned int len, unsigned char rxpipenum)$/;"	f
+nrf24l01_set_rx_pw	nrf24l01.c	/^void nrf24l01_set_rx_pw(unsigned char payloadwidth, unsigned char rxpipenum)$/;"	f
+nrf24l01_set_tx_addr	nrf24l01.c	/^void nrf24l01_set_tx_addr(unsigned char * address, unsigned int len)$/;"	f
+nrf24l01_spi_send_read	nrf24l01.c	/^void nrf24l01_spi_send_read(unsigned char * data, unsigned int len, bool copydata)$/;"	f
+nrf24l01_transmit	nrf24l01.c	/^void nrf24l01_transmit()$/;"	f
+nrf24l01_write_register	nrf24l01.c	/^unsigned char nrf24l01_write_register(unsigned char regnumber, unsigned char * data, unsigned int len)$/;"	f
+nrf24l01_write_tx_payload	nrf24l01.c	/^unsigned char nrf24l01_write_tx_payload(unsigned char * data, unsigned int len, bool transmit)$/;"	f
+nrf_send	local.c	/^char nrf_send(unsigned char *data)$/;"	f
+pass	local.c	/^volatile unsigned char uart_rx[5], pass, indx;$/;"	v
+pi	mag_acc.c	7;"	d	file:
+pitch	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+readAccReg	mag_acc.c	/^unsigned char readAccReg(unsigned char reg)$/;"	f
+readMagReg	mag_acc.c	/^unsigned char readMagReg(unsigned char reg)$/;"	f
+read_compass	mag_acc.c	/^int read_compass()$/;"	f
+roll	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+ser	a.py	/^ser=serial.Serial()$/;"	v
+spi1_send_read_byte	spi1.c	/^unsigned char spi1_send_read_byte(unsigned char byte)$/;"	f
+spi_init	spi1.c	/^void spi_init()$/;"	f
+spi_send_read_byte	nrf24l01.h	49;"	d
+tilt_com_heading	mag_acc.c	/^static double pitch, roll, heading, tilt_com_heading, mx, my, mz;$/;"	v	file:
+true	nrf24l01.h	28;"	d
+ttt	local.c	/^unsigned char ttt;$/;"	v
+uart_init	uart.c	/^void uart_init()$/;"	f
+uart_print_num	uart.c	/^void uart_print_num(int i)$/;"	f
+uart_print_string	uart.c	/^void uart_print_string(unsigned char *p)$/;"	f
+uart_rx	local.c	/^volatile unsigned char uart_rx[5], pass, indx;$/;"	v
+uart_send_byte	uart.c	/^void uart_send_byte(unsigned char c)$/;"	f
+writeAccReg	mag_acc.c	/^void writeAccReg(unsigned char reg, unsigned char value)$/;"	f
+writeMagReg	mag_acc.c	/^void writeMagReg(unsigned char reg, unsigned char value)$/;"	f
